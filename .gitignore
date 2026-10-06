@@ -1,0 +1,7 @@
+runs/
+tt_submission/
+test/sim_build/
+test/results.xml
+test/*.fst
+test/__pycache__/
+test/gate_level_netlist.v
