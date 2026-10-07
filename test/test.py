@@ -11,7 +11,7 @@ from cocotb.clock import Clock
 from cocotb.triggers import ClockCycles, FallingEdge
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-TICK_CYCLES = 9  # 3 + 2 (pin synchronizer) + 4 cores
+TICK_CYCLES = 10  # 4 + 2 (pin synchronizer) + 4 cores
 
 
 def read_vectors():
@@ -39,7 +39,7 @@ async def send(dut, byte):
 @cocotb.test()
 async def test_i2c_three_roles_one_binary(dut):
     stream, ticks, expected = read_vectors()
-    cocotb.start_soon(Clock(dut.clk, 20, unit="ns").start())
+    cocotb.start_soon(Clock(dut.clk, 25, unit="ns").start())
     dut.ena.value = 1
     dut.ui_in.value = 0
     dut.load_strobe.value = 0
