@@ -1,0 +1,12 @@
+i2c_arbitration 251 22000
+i2c_read_branch 360 33000
+spi_full_duplex 210 8800
+uart 184 13200
+manchester32 154 39600
+can_crc_arbitration 740 88000
+jtag 624 13200
+onewire_no_device 232 44000
+ps2_host 306 77000
+usb_token 276 13200
+push_pull_contention 165 330
+crc_branch 160 330
