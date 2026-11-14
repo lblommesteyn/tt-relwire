@@ -35,12 +35,11 @@
   "ROUTING_CORES": 8,
 
   "//": "Slew cleanup: placement-stage repair aims 30% inside the slew/cap limits and",
-  "//": "buffers long wires. A second repair after global routing sees real wire lengths:",
-  "//": "one weak nor4 net only went over the slow-corner limit once routed.",
+  "//": "buffers wires longer than 200 um (at 400 one weak nor4 net went 6% over the",
+  "//": "slow-corner slew limit once routed; post-route repair did not catch it).",
   "DESIGN_REPAIR_MAX_SLEW_PCT": 30,
-  "RUN_POST_GRT_DESIGN_REPAIR": 1,
   "DESIGN_REPAIR_MAX_CAP_PCT": 30,
-  "DESIGN_REPAIR_MAX_WIRE_LENGTH": 400,
+  "DESIGN_REPAIR_MAX_WIRE_LENGTH": 200,
 
   "//": "Configuration docs: https://librelane.readthedocs.io/en/latest/reference/configuration.html",
 
