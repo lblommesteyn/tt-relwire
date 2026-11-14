@@ -7,7 +7,7 @@ same binary a controller, a target or a sniffer.
 This repository is generated from the main project,
 [lblommesteyn/relwire](https://github.com/lblommesteyn/relwire), by
 `tapeout/export_tt_repo.sh`, at commit
-[`339f4a25a290`](https://github.com/lblommesteyn/relwire/tree/339f4a25a290a6ccff98653c893e54cc8b846266) (also in
+[`85c2adb822bf`](https://github.com/lblommesteyn/relwire/tree/85c2adb822bf89febc05af0c65504545c928a2c9) (also in
 `SOURCE_REV`): the language, reference model, compiler, timing
 certificates and the full test suites live there. See [docs/info.md](docs/info.md)
 for how the chip works and how to test it.

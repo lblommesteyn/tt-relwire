@@ -10,3 +10,4 @@ ps2_host 306 77000
 usb_token 276 13200
 push_pull_contention 165 330
 crc_branch 160 330
+crc_into_itself 136 330
